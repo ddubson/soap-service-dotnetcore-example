@@ -1,0 +1,24 @@
+GET https://localhost:9310/PersonProfileService.asmx
+Content-Type: application/xml
+SOAPAction: "http://tempuri.org/IPersonProfileService/GetAllProfiles"
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <tem:GetAllProfiles/>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+###
+GET https://localhost:9310/PersonProfileService.asmx
+Content-Type: application/xml
+SOAPAction: "http://tempuri.org/IPersonProfileService/GetProfileById"
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetProfileById>
+         <tem:id>1</tem:id>
+      </tem:GetProfileById>
+   </soapenv:Body>
+</soapenv:Envelope>

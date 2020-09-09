@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "Development": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "/PersonProfile.asmx",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://localhost:9310"
+      }
+    }
+  }
+}
