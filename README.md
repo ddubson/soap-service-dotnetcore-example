@@ -22,6 +22,12 @@ locally at:
 https://localhost:9310/PersonProfileService.asmx
 ```
 
+To start the SOAP service, run:
+
+```bash
+make run-soap-service
+```
+
 Check out [sample SOAP calls here](./AddressBookSOAPRequests.http)
 
 ## SOAP Client
